@@ -1,0 +1,139 @@
+.card {
+  position: relative;
+  width: 100%;
+  height: 310px;
+  border-radius: 6px 36px 6px 36px;
+  background-color: #f3f2f2;
+  margin: 2rem 0rem 2rem 0rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.coffeeImgDiv {
+  position: absolute;
+  top: -20px;
+}
+.types {
+  width: 81px;
+  height: 21px;
+  gap: 4px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 100px;
+  color: #c47f17;
+  background-color: #f1e9c9;
+  font-size: 10px;
+  font-family: "Roboto";
+  justify-content: center;
+  margin: 2px 2px 2px 2px;
+}
+.title {
+  /* position: absolute; */
+  width: 216px;
+  height: 26px;
+  font-family: "Baloo 2";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.description {
+  /* position: absolute; */
+  width: 216px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Baloo 2";
+  line-height: 18px;
+  text-align: center;
+  color: #8d8686;
+  margin-top: 10px;
+}
+.buy {
+  /* position: absolute; */
+  display: flex;
+  width: 208px;
+  height: 38px;
+  top: 252px;
+  /* left: -40px; */
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.price {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: right;
+}
+.amount {
+  font-family: "Baloo 2";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 31.2px;
+  text-align: right;
+}
+.cartBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  gap: 8px;
+  border-radius: 6px;
+  color: white;
+  background-color: #4b2995;
+  border: none;
+}
+.cartIcon {
+  vertical-align: unset;
+  width: 19.74px;
+  height: 17.88px;
+}
+.countDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 38px;
+  gap: 4px;
+  border-radius: 6px;
+  background-color: #e6e5e5;
+}
+.plusMinus {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Roboto";
+  border: none;
+  background: transparent;
+  color: #8047f8;
+}
+.count {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+}
+.mainTypesDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.typesText {
+  margin: unset;
+  text-align: center;
+}
+
+.typesCol {
+  text-align: -webkit-center;
+}
+.belowCoffeeImgDiv {
+  position: absolute;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

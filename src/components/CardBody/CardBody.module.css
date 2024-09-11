@@ -1,0 +1,16 @@
+.heading {
+  font-family: "Baloo 2";
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .bannerHeadText h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainBody{
+    padding-inline: 25px;
+  }
+}

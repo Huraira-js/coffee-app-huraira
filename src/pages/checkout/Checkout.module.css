@@ -1,0 +1,296 @@
+.formHeading {
+  font-family: "Baloo 2";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  margin-top: 20px;
+}
+.form {
+  width: 100%;
+  padding: 40px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background-color: #f3f2f2;
+}
+.payment {
+  width: 100%;
+  padding: 30px;
+  gap: 32px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background-color: #f3f2f2;
+}
+.paymentButtonsWrapper {
+  text-align: center;
+}
+.checkoutCard {
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px 44px 6px 44px;
+  border-bottom: 2px;
+  background-color: #f3f2f2;
+}
+.checkoutCardItem {
+  display: flex;
+  width: 100%;
+  padding: 8px 4px 8px 4px;
+  align-items: center;
+}
+.checkoutContentDiv {
+  width: 100%;
+  margin-left: 20px;
+}
+.locFormDiv {
+  display: flex;
+  align-items: baseline;
+}
+.locIconDiv,
+.dollarIconDiv {
+  color: #c47f17;
+  width: 22px;
+  height: 22px;
+}
+.locIcon,
+.paymentIcon {
+  width: 15px;
+  height: 20px;
+}
+.paymentIcon {
+  margin-right: 2px;
+}
+.dollarIconDiv,
+.paymentIcon {
+  color: #8047f8;
+}
+.locText1 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #403937;
+  margin-bottom: 0px;
+}
+.locText2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #574f4d;
+  margin-bottom: 0px;
+}
+input {
+  margin: 20px 0px 0px 0px !important;
+  height: 42px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #e6e5e5;
+  background-color: #ededed;
+}
+input:focus {
+  border: 2px solid #8047f8;
+  outline: none;
+}
+.input1 {
+  width: 36%;
+}
+.input2 {
+  width: 100%;
+}
+.paymentButtons {
+  margin: 40px 0px 0px 0px;
+  width: 179px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #574f4d;
+  background-color: #e6e5e5;
+}
+.checkoutItemImg {
+  height: 64px;
+  width: 64px;
+}
+.checkoutItemImgDiv {
+  height: 64px;
+  width: 64px;
+}
+.horizontalRuler {
+  border: 1px solid #e6e5e5;
+}
+.countDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 6px;
+  background-color: #e6e5e5;
+}
+.plusMinus {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Roboto";
+  border: none;
+  background: transparent;
+  color: #8047f8;
+}
+.count {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+}
+.buttonWrapper {
+  display: flex;
+}
+.remover {
+  border: none;
+  background-color: #e6e5e5;
+  height: 32px;
+  width: 91px;
+  border-radius: 6px;
+  margin-left: 2px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #574f4d;
+}
+.removerIcon {
+  color: #8047f8;
+}
+.amount {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: right;
+}
+.amountSpan {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: right;
+}
+.titleAmount {
+  display: flex;
+  width: 100%;
+}
+.titleAmount1 {
+  width: 100%;
+  text-align: end;
+}
+.titleText {
+  width: max-content;
+  text-wrap: nowrap;
+}
+.titleText p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  margin: 0px 0px 0px 0px;
+}
+.totalMainDiv {
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  color: #574f4d;
+}
+.totalMainDiv p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: end;
+}
+.totalAmount {
+  text-align: end;
+}
+.mainTotalAmount {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #403937;
+}
+.mainTotalAmount p {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.confirmBtnDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 8px 12px 8px;
+  border-radius: 6px;
+}
+.confirmBtnDiv button {
+  width: 100%;
+  padding: 12px 8px 12px 8px;
+  border-radius: 6px;
+  background-color: #dbac2c;
+  width: 100%;
+  color: #ffffff;
+  border: 0px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22.4px;
+  font-variation-settings: "wdth" 100;
+}
+@media screen and (max-width: 1200px) {
+  .titleAmount {
+    display: unset;
+  }
+  .titleAmount1 {
+    text-align: unset;
+  }
+  .checkoutCard {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .titleAmount,
+  .checkoutCardItem {
+    display: flex;
+  }
+  .titleAmount1 {
+    text-align: end;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titleAmount {
+    display: unset;
+  }
+  .titleAmount1 {
+    text-align: unset;
+  }
+}
+@media screen and (max-width: 767px) {
+  .input1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainBody{
+    padding-inline: 15px;
+  }
+}

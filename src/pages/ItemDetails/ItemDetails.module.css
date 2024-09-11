@@ -1,0 +1,99 @@
+.mainItemBody {
+  background-color: #f3f2f2;
+  padding: 40px;
+  border-radius: 6px;
+}
+.contentdiv {
+  display: flex;
+}
+.body {
+  font-family: "Baloo 2";
+  color: #8d8686;
+}
+.itemContent {
+  margin-left: 20px;
+}
+.itemTitle {
+  font-size: 40px;
+  font-weight: 800;
+  color: #5b5352;
+}
+.amountDiv {
+  display: flex;
+}
+.amount {
+  font-size: 40px;
+  font-weight: 800;
+  color: #5b5352;
+}
+.coffeeImg {
+  width: 200px;
+  align-self: center;
+}
+.amountLabel {
+  align-self: center;
+  margin-right: 20px;
+}
+.mainTypesDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.types {
+  color: #e97749;
+  background-color: #e7bca8;
+  border-radius: 20px;
+  padding: 3px;
+}
+.typesData {
+  align-self: center;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+.cartAction {
+  display: flex;
+  justify-content: center;
+}
+.cartActionBtn {
+  margin: 0px 5px 5px 0px;
+  background-color: #831843;
+  color: #eededb;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  width: -webkit-fill-available;
+}
+.countDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  gap: 4px;
+  border-radius: 6px;
+  background-color: #e6e5e5;
+  margin-right: 5px;
+}
+.plusMinus {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Roboto";
+  border: none;
+  background: transparent;
+  color: #8047f8;
+}
+.count {
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .contentdiv {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .body {
+    padding-inline: 25px;
+  }
+}

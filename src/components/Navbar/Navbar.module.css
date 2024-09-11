@@ -1,0 +1,86 @@
+.nav {
+  width: 100%;
+  height: 104px;
+  padding: 32px 10px 32px 10px;
+  gap: 0px;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+.logo {
+  width: 85px;
+  height: 100%;
+  cursor: pointer;
+}
+.locButton {
+  display: flex;
+  width: 143px;
+  height: 38px;
+  gap: 4px;
+  color: #4b2995;
+  font-size: 14px;
+  line-height: 18.2px;
+  text-align: left;
+  align-items: center;
+  background-color: #ebe5f9;
+  border-radius: 6px;
+}
+.cartBtnDiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 6px;
+  background-color: #f1e9c9;
+}
+.mainBtnDiv {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 193px;
+  height: 38px;
+  gap: 12px;
+  border-radius: 6px;
+}
+.locIcon {
+  width: 22px;
+  height: 22px;
+  padding: 1.38px 3.44px 1.38px 3.44px;
+}
+.locText {
+  font-weight: 400;
+  font-family: "Roboto";
+  padding: 1.38px 3.44px 1.38px 3.44px;
+  line-height: 18px;
+}
+.cartIcon {
+  width: 22px;
+  height: 22px;
+  padding: 1.38px 3.44px 1.38px 3.44px;
+}
+.cartBtn {
+  border: none;
+  background: transparent;
+  color: #c47f17;
+}
+.cartBadge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #C47F17;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 350px) {
+  .nav {
+    padding: 32px 0px 32px 0px;
+  }
+}
